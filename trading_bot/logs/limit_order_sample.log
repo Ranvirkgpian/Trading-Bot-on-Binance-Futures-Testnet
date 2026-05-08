@@ -1,0 +1,8 @@
+2026-05-08 12:20:00 | DEBUG    | trading_bot.setup_logging:48 | Logging initialised — file: logs/limit_order_sample.log
+2026-05-08 12:20:00 | DEBUG    | trading_bot.__init__:32 | BinanceClient initialised (testnet)
+2026-05-08 12:20:01 | INFO     | trading_bot.place_order:55 | Placing LIMIT SELL order for ETHUSDT
+2026-05-08 12:20:01 | DEBUG    | trading_bot.place_order:56 | Order parameters: {'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '4000.00', 'timeInForce': 'GTC'}
+2026-05-08 12:20:01 | DEBUG    | trading_bot._request:95 | API Request: POST /fapi/v1/order | params={'symbol': 'ETHUSDT', 'side': 'SELL', 'type': 'LIMIT', 'quantity': '0.01', 'price': '4000.00', 'timeInForce': 'GTC', 'timestamp': 1746692401000, 'recvWindow': 5000}
+2026-05-08 12:20:02 | DEBUG    | trading_bot._request:114 | API Response: POST /fapi/v1/order | status=200
+2026-05-08 12:20:02 | DEBUG    | trading_bot._request:131 | API Response body: {'orderId': 4820617893, 'symbol': 'ETHUSDT', 'status': 'NEW', 'clientOrderId': 'x-R4BD3S82def7654321', 'price': '4000.00', 'avgPrice': '0.00000', 'origQty': '0.01', 'executedQty': '0.00', 'cumQty': '0.00', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'updateTime': 1746692402000}
+2026-05-08 12:20:02 | INFO     | trading_bot.place_order:72 | Order placed successfully — ID: 4820617893, Status: NEW, Executed Qty: 0.00, Avg Price: 0.00000

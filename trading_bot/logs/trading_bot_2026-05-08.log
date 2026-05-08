@@ -1,0 +1,8 @@
+2026-05-08 12:01:19 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log
+2026-05-08 12:01:29 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log
+2026-05-08 12:01:39 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log
+2026-05-08 12:03:14 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log
+2026-05-08 12:03:14 | ERROR    | trading_bot._get_client:71 | Missing API credentials -- aborting
+2026-05-08 12:03:30 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log
+2026-05-08 12:03:30 | ERROR    | trading_bot.order:132 | Validation failed: Invalid symbol format: 'INVALID'. Expected format: <BASE>USDT (e.g., BTCUSDT).
+2026-05-08 12:16:25 | DEBUG    | trading_bot.setup_logging:58 | Logging initialised — file: logs\trading_bot_2026-05-08.log

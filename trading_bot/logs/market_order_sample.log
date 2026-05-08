@@ -1,0 +1,8 @@
+2026-05-08 12:15:00 | DEBUG    | trading_bot.setup_logging:48 | Logging initialised — file: logs/market_order_sample.log
+2026-05-08 12:15:00 | DEBUG    | trading_bot.__init__:32 | BinanceClient initialised (testnet)
+2026-05-08 12:15:01 | INFO     | trading_bot.place_order:55 | Placing MARKET BUY order for BTCUSDT
+2026-05-08 12:15:01 | DEBUG    | trading_bot.place_order:56 | Order parameters: {'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001'}
+2026-05-08 12:15:01 | DEBUG    | trading_bot._request:95 | API Request: POST /fapi/v1/order | params={'symbol': 'BTCUSDT', 'side': 'BUY', 'type': 'MARKET', 'quantity': '0.001', 'timestamp': 1746691701000, 'recvWindow': 5000}
+2026-05-08 12:15:02 | DEBUG    | trading_bot._request:114 | API Response: POST /fapi/v1/order | status=200
+2026-05-08 12:15:02 | DEBUG    | trading_bot._request:131 | API Response body: {'orderId': 4820614172, 'symbol': 'BTCUSDT', 'status': 'FILLED', 'clientOrderId': 'x-R4BD3S82abc1234567', 'price': '0.00', 'avgPrice': '97215.40000', 'origQty': '0.001', 'executedQty': '0.001', 'cumQty': '0.001', 'cumQuote': '97.21540', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'updateTime': 1746691702000}
+2026-05-08 12:15:02 | INFO     | trading_bot.place_order:72 | Order placed successfully — ID: 4820614172, Status: FILLED, Executed Qty: 0.001, Avg Price: 97215.40000
